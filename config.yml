@@ -1,0 +1,58 @@
+time:
+  start: 2020-06-21T00:00:00+00:00
+  end: 2020-06-21T00:01:40+00:00
+  step: 1
+
+vertex:
+  total: 1000000
+  update_proportion: 0.8
+  temporal_property_number: 14
+  temporal_property_type:
+    - true
+    - false
+    - true
+    - true
+    - false
+    - false
+    - false
+    - true
+    - true
+    - false
+    - true
+    - false
+    - true
+    - false
+  temporal_property_update_proportion:
+    - 0.9
+    - 0.8
+    - 0.6
+    - 0.3
+    - 0.2
+    - 0.1
+    - 0.75
+    - 0.85
+    - 0.35
+    - 0.4
+    - 0.25
+    - 0.9
+    - 0.8
+    - 0.6
+
+edge:
+  total: 5000000
+  update_proportion: 0.5
+  temporal_property_number: 6
+  temporal_property_type:
+    - true
+    - true
+    - false
+    - false
+    - true
+    - false
+  temporal_property_update_proportion:
+    - 0.9
+    - 0.8
+    - 0.7
+    - 0.3
+    - 0.2
+    - 0.5
